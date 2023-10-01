@@ -1,0 +1,20 @@
+.link {
+  margin: 5px;
+}
+
+.social-logo {
+  height: 5%;
+  width: 5%;
+}
+
+.clickable-icon {
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer; /* Change the cursor to a pointer to indicate clickability */
+  transition: color 0.3s, transform 0.3s; /* Add smooth color and scale transition on hover */
+}
+
+.clickable-icon:hover {
+  color: #007bff; /* Change the icon color on hover */
+  transform: scale(1.1); /* Add a slight scale effect on hover */
+}

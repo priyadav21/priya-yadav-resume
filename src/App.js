@@ -1,44 +1,34 @@
-import linkedInLogo from "./linkedIn.png";
 import profileImage from "./profileImage.jpeg";
-import githubLogo from "./github.svg";
-import resumeLogo from "./resume-icon.png";
 import "./App.css";
+import SocialHandles from "./SocialHandles/SocialHandles";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={profileImage} className="App-logo" alt="logo" />
-        <h1>Priya Yadav</h1>
-        <div>
-          <a
-            className="link linkedIn"
-            href="https://www.linkedin.com/in/priyadav21/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={linkedInLogo} className="social-logo" />
-          </a>
-          <a
-            className="link github"
-            href="https://github.com/priyadav21"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={githubLogo} className="social-logo" />
-          </a>
-          <a
-            className="link resume"
-            href="https://drive.google.com/file/d/1zFxe99RYn0l17wT4qiq83tUWZGaZjKl5/view?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={resumeLogo} className="social-logo" />
-          </a>
+        <div className="infoAboutMe">
+          <img src={profileImage} className="App-logo" alt="logo" />
+          <div className="name-designation">
+            <h1>Priya Yadav</h1>
+            <h2>Frontend Developer</h2>
+          </div>
         </div>
+        <div className="introduction">
+          <p>
+            Certified JavaScript Developer with a proven track record in
+            delivering exceptional frontend solutions during a successful tenure
+            at Amdocs, Pune. Over two years in the Research and Development
+            (R&D) team, I honed my expertise in React.js, Redux, and HTML and
+            had the privilege of collaborating within a dynamic team of 10
+            professionals. My responsibilities encompassed developing innovative
+            functionalities, rigorous error debugging, and imparting knowledge
+            through effective mentoring.
+          </p>
+        </div>
+        <SocialHandles />
       </header>
     </div>
   );
-}
+};
 
 export default App;
