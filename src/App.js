@@ -29,7 +29,7 @@ function App() {
           </a>
           <a
             className="link resume"
-            href="https://drive.google.com/file/d/1zFxe99RYn0l17wT4qiq83tUWZGaZjKl5/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1zFxe99RYn0l17wT4qiq83tUWZGaZjKl5/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
