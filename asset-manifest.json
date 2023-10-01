@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/priya-yadav-resume/static/css/main.073c9b0a.css",
+    "main.js": "/priya-yadav-resume/static/js/main.7ff86a16.js",
+    "static/js/787.67cd310f.chunk.js": "/priya-yadav-resume/static/js/787.67cd310f.chunk.js",
+    "static/media/logo.svg": "/priya-yadav-resume/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/priya-yadav-resume/index.html",
+    "main.073c9b0a.css.map": "/priya-yadav-resume/static/css/main.073c9b0a.css.map",
+    "main.7ff86a16.js.map": "/priya-yadav-resume/static/js/main.7ff86a16.js.map",
+    "787.67cd310f.chunk.js.map": "/priya-yadav-resume/static/js/787.67cd310f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.7ff86a16.js"
+  ]
+}
