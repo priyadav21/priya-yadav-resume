@@ -32,7 +32,7 @@ const SocialHandles = () => {
       </a>
       <a
         className="link resume"
-        href="https://drive.google.com/file/d/1zFxe99RYn0l17wT4qiq83tUWZGaZjKl5/view?usp=sharing"
+        href="https://drive.google.com/file/d/1Uqvm8CUPsu9bM19jkUht3mTO3Cmm0_MZ/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
       >
